@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.top{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    width: 80%;
+}
+
+.card-div{
+    width: 30.9%;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.card-div:first-child{
+    padding-left: 0px;
+}
+.card-div:last-child{
+    padding-right: 0px;
+}
+
+.crd{
+    box-shadow: 2px 1px 6px gray;
+}
+.crd .img-div{
+    width: 100%;
+    height: 200px;
+}
+.crd img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+.crd .content{
+    padding: 20px;
+    padding-top: 20px;
+}
+.crd .content span{
+    margin-right: 9px;
+    color: rgba(128, 128, 128, 0.585);
+}
+.crd .content h3{
+    margin: 15px 0px;
+}
+.crd p{
+    margin-bottom: 10px;
+    color: gray;
+}
+.crd a{
+    color: gray
+}
+.crd a i{
+    margin-left: 5px;
+}
